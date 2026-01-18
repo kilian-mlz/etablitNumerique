@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f5f5f7">
+
+    <title>L'Établi Numérique | Sites Web Haute Performance pour Artisans</title>
+    <meta name="description" content="Développement de sites web sur-mesure pour artisans et PME. Sans abonnement, code optimisé SEO, performance maximale. Audit gratuit.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://etabli-numerique.fr/">
+    <meta property="og:title" content="L'Établi Numérique | L'artisanat du web">
+    <meta property="og:description" content="Pas de Wix, pas d'abonnement. Juste du code propre pour votre visibilité locale.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1200">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<div class="noise-overlay"></div>
+
+<nav class="navbar" id="navbar">
+    <div class="container nav-row">
+        <a href="#" class="logo">L'Établi<span class="dot">.</span></a>
+
+        <div class="nav-right">
+            <ul class="nav-links">
+                <li><a href="#expert">Expertise</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#work">Réalisations</a></li>
+                <li><a href="#pricing">Tarifs</a></li>
+            </ul>
+            <a href="#contact" class="btn-talk">
+                <span>Parlons projet</span>
+                <div class="icon-circle"><i class="fa-solid fa-arrow-right"></i></div>
+            </a>
+
+            <button class="burger-menu" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<main>
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content reveal">
+                <div class="status-pill">
+                    <span class="pulse"></span>
+                    <span class="status-text">Disponible pour nouveaux projets</span>
+                </div>
+                <h1>Votre savoir-faire est local.<br>Votre visibilité doit être <span class="highlight">totale.</span></h1>
+                <p class="hero-sub">Je transforme l'anonymat numérique en carnet de commandes rempli. Sites web artisanaux, sans abonnement, taillés pour Google.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn-primary">Lancer un audit gratuit</a>
+                    <a href="#comparison" class="btn-secondary">Voir la différence</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="marquee-wrapper">
+        <div class="marquee-track">
+            <div class="marquee-content">
+                <span>Plomberie</span> <i class="fa-solid fa-asterisk"></i>
+                <span>Restauration</span> <i class="fa-solid fa-asterisk"></i>
+                <span>Menuiserie</span> <i class="fa-solid fa-asterisk"></i>
+                <span>Garage Auto</span> <i class="fa-solid fa-asterisk"></i>
+                <span>Couverture</span> <i class="fa-solid fa-asterisk"></i>
+                <span>Paysagiste</span> <i class="fa-solid fa-asterisk"></i>
+            </div>
+            <div class="marquee-content" aria-hidden="true">
+                <span>Plomberie</span> <i class="fa-solid fa-asterisk"></i>
+                <span>Restauration</span> <i class="fa-solid fa-asterisk"></i>
+                <span>Menuiserie</span> <i class="fa-solid fa-asterisk"></i>
+                <span>Garage Auto</span> <i class="fa-solid fa-asterisk"></i>
+                <span>Couverture</span> <i class="fa-solid fa-asterisk"></i>
+                <span>Paysagiste</span> <i class="fa-solid fa-asterisk"></i>
+            </div>
+        </div>
+    </div>
+
+    <section id="comparison" class="section comparison-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>La transformation est radicale.</h2>
+                <p>Glissez le curseur pour voir la différence entre un bricolage amateur et un site professionnel optimisé.</p>
+            </div>
+
+            <div class="comparison-wrapper reveal">
+                <div class="comparison-container">
+                    <div class="img-comp-overlay">
+                        <img src="https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=1200" alt="Site Moderne L'Établi">
+                        <span class="label-badge after">Après (L'Établi)</span>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1517260739337-6799d239ce83?q=80&w=1200&filter=grayscale" alt="Ancien Site Amateur">
+                    <span class="label-badge before">Avant</span>
+
+                    <input type="range" min="0" max="100" value="50" class="slider-range" id="sliderRange" aria-label="Comparer avant après">
+                    <div class="slider-line">
+                        <div class="slider-button"><i class="fa-solid fa-left-right"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="expert" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Le problème des sites "gratuits" ?<br><span class="text-gray">Ils vous coûtent des clients.</span></h2>
+            </div>
+
+            <div class="grid-cards">
+                <article class="feature-box reveal">
+                    <div class="feature-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <h3>Performance Pure</h3>
+                    <p>Google pénalise les sites lents. Je code "à la main" (HTML/CSS) pour garantir un score de 100/100. Chargement instantané, même en 4G.</p>
+                </article>
+                <article class="feature-box reveal delay-1">
+                    <div class="feature-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                    <h3>Mobile First</h3>
+                    <p>82% de vos clients cherchent un artisan sur leur smartphone. Votre site sera pensé pour le pouce, pas pour la souris.</p>
+                </article>
+                <article class="feature-box reveal delay-2">
+                    <div class="feature-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <h3>SEO Local</h3>
+                    <p>Structure technique optimisée pour remonter sur "Votre Métier + Votre Ville". Soyez visible quand ça compte.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="section process-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Simple. Rapide. Carré.</h2>
+                <p>Je sais que vous n'avez pas de temps à perdre. Voici comment on procède.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="step-num">01</div>
+                    <div class="step-content">
+                        <h3>L'échange (15 min)</h3>
+                        <p>On discute de votre métier au téléphone. Je cerne vos besoins et je récupère vos photos et votre logo.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal delay-1">
+                    <div class="step-num">02</div>
+                    <div class="step-content">
+                        <h3>La Construction (5 jours)</h3>
+                        <p>Je développe votre site sur un serveur de test privé. Vous suivez l'avancée en temps réel.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal delay-2">
+                    <div class="step-num">03</div>
+                    <div class="step-content">
+                        <h3>Le Lancement</h3>
+                        <p>Validation finale. Je connecte votre nom de domaine, je configure Google Maps et c'est en ligne.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="section bg-dark text-white rounded-section">
+        <div class="container">
+            <div class="split-header reveal">
+                <h2>Projets Types</h2>
+                <p>Pas de templates génériques. Chaque site est construit pour répondre aux besoins spécifiques de votre métier.</p>
+            </div>
+
+            <div class="work-grid">
+                <article class="work-card reveal">
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800" alt="Site web rénovation" loading="lazy">
+                        <div class="card-badge">BTP & Artisanat</div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Pack Rénovation</h3>
+                        <p>Galerie Avant/Après • Demande de devis • Réassurance</p>
+                    </div>
+                </article>
+                <article class="work-card reveal delay-1">
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?q=80&w=800" alt="Site web commerce" loading="lazy">
+                        <div class="card-badge">Commerces</div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Pack Boutique</h3>
+                        <p>Horaires dynamiques • Click & Collect • Avis Google</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="section">
+        <div class="container">
+            <div class="pricing-split">
+                <div class="pricing-text reveal">
+                    <h2>Investissement Unique.</h2>
+                    <p class="lead">Arrêtez de louer votre présence en ligne.</p>
+                    <p>Contrairement aux agences classiques ou aux plateformes comme Wix, vous ne payez pas d'abonnement mensuel pour la création. <strong>Le site vous appartient à 100%.</strong></p>
+
+                    <ul class="benefits-list">
+                        <li><span class="check-icon"><i class="fa-solid fa-check"></i></span> Pas de frais cachés</li>
+                        <li><span class="check-icon"><i class="fa-solid fa-check"></i></span> Nom de domaine offert (1 an)</li>
+                        <li><span class="check-icon"><i class="fa-solid fa-check"></i></span> Code propre et léger (Éco-conçu)</li>
+                    </ul>
+                </div>
+
+                <div class="pricing-card reveal">
+                    <div class="card-header">
+                        <span class="pill-badge">Offre Tout Compris</span>
+                        <div class="price">750€</div>
+                        <p class="sub-price">Paiement en 2x possible</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="item"><span>Site Vitrine 5 Pages</span> <i class="fa-solid fa-check"></i></div>
+                        <div class="item"><span>Optimisation SEO Technique</span> <i class="fa-solid fa-check"></i></div>
+                        <div class="item"><span>Formulaire de contact</span> <i class="fa-solid fa-check"></i></div>
+                        <div class="item"><span>Intégration Google Maps</span> <i class="fa-solid fa-check"></i></div>
+                        <div class="item"><span>Mentions Légales</span> <i class="fa-solid fa-check"></i></div>
+                        <a href="#contact" class="btn-full">Réserver mon créneau <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section faq-section bg-light">
+        <div class="container narrow">
+            <div class="section-header reveal">
+                <h2>Questions fréquentes</h2>
+            </div>
+
+            <div class="faq-grid reveal">
+                <details class="faq-item">
+                    <summary>
+                        <span>Vraiment aucun abonnement mensuel ?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Absolument. Vous payez la création une seule fois (750€). Les seules charges annuelles sont l'hébergement et le nom de domaine (environ 50€/an chez l'hébergeur de votre choix type OVH ou Hostinger), que je vous aide à configurer.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>
+                        <span>Combien de temps pour être sur Google ?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Dès la mise en ligne, j'indexe votre site. Il faut généralement entre 1 et 3 semaines pour que Google le fasse remonter correctement sur votre localité (ex: "Plombier [Ville]").</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>
+                        <span>Je peux modifier les textes moi-même ?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Pour garantir la performance (vitesse) et la sécurité, il n'y a pas d'interface lourde comme WordPress. Cependant, pour toute modification mineure (changement de numéro, horaire), je le fais gratuitement pour mes clients.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container narrow">
+            <div class="contact-wrapper reveal">
+                <h2>On commence quand ?</h2>
+                <p>Laissez-moi vos coordonnées, je vous rappelle dans la journée pour discuter de votre activité.</p>
+
+                <form class="minimal-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Votre Nom" required>
+                        <label for="name">Votre Nom</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Votre Email" required>
+                        <label for="email">Votre Email</label>
+                    </div>
+                    <div class="form-group">
+                        <select id="activity" required>
+                            <option value="" disabled selected>Votre activité</option>
+                            <option>Bâtiment / Travaux</option>
+                            <option>Commerce / Restauration</option>
+                            <option>Service / Soin</option>
+                            <option>Autre</option>
+                        </select>
+                        <i class="fa-solid fa-chevron-down select-arrow"></i>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="1" placeholder="Un mot sur votre projet..." oninput="autoResize(this)"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary big">
+                        Envoyer ma demande <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container footer-content">
+        <div class="footer-left">
+            <a href="#" class="logo footer-logo">L'Établi<span class="dot">.</span></a>
+            <p>Développement web artisanal dans les Hauts-de-France.</p>
+        </div>
+        <div class="footer-right">
+            <a href="mailto:contact@etabli-numerique.fr">contact@etabli-numerique.fr</a>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="container copyright">
+        &copy; 2026 L'Établi Numérique. Tous droits réservés.
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
